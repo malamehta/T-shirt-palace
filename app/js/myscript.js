@@ -1,4 +1,4 @@
-var allNotifications=['10% off Sitewide Use code TEN10 + Free Shipping $99','aaaaaaaaaaa aaaaa','bbbbbb bbbbbbb','ccccc ccccccc'];
+var allNotifications=['10% off Sitewide Use code TEN10 + Free Shipping $99','notification 1','notification2','notification 3'];
 i=0;
 function chngNotification(){
     document.getElementById("notifications").innerHTML=allNotifications[i];
