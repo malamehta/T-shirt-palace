@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ==link for fonts=== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Oswald:wght@300&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- ===icon -link==== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>tee-shirt-palace</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-top ">
+            <span id="notifications">10% off Sitewide Use code TEN10 + Free Shipping $99</span>
+        </div>
+        <nav class="navbar container">
+            <div id="show-btn" class="hamberg-btn" onclick="show()">&#9776</div>
+            <div id="hide-btn" class="cross-btn" onclick="hide()">&times</div>
+            <a href="#" class="navbar-logo">
+                <img src="images/logo-img.svg" alt="" class="logo-img">
+            </a>
+            <ul class="navbar-menu" id="hamberg-menu">
+                <li><a href="#">Trending topics</a></li>
+                <li><a href="#">woman</a></li>
+                <li><a href="#">man</a></li>
+                <li><a href="#">girls</a></li>
+                <li><a href="#">boys</a></li>
+                <li><a href="#">home and living</a></li>
+            </ul>
+            <ul class="navbar-icon">
+                <li class="search-icon">
+                    <div class="icon"><a href="#"><img src="images/search-icon.svg" alt=""></a></div>
+                    <div class="search"><input type="text" placeholder="search"></div>
+                </li>
+                <li class="notification">
+                    <a href="#">
+                        <span class="badge">2</span>
+                        <img src="images/like-icon.svg" alt="">
+                    </a>
+                </li>
+                <li class="notification">
+                    <a href="#">
+                        <span class="badge">2</span>
+                        <img src="images/cart-icon.svg" alt="">
+                    </a>
+                </li>
+                <li><a href="#"><img src="images/contact-icon.svg" alt=""></a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <!-- ----category---- -->
+        <section class="category ">
+            <div class="category-content">
+                <div class="category-content__img">
+                    <img src="images/man-img.svg" alt="">
+                </div>
+                <div class="category-content__title">
+                    <a href="#">MAN</a>
+                </div>
+            </div>
+            <div class="category-content">
+                <div class="category-content__img">
+                    <img src="images/man-img.svg" alt="">
+                </div>
+                <div class="category-content__title">
+                    <a href="#">WOMAN</a>
+                </div>
+            </div>
+            <div class="category-content">
+                <div class="category-content__img">
+                    <img src="images/man-img.svg" alt="">
+                </div>
+                <div class="category-content__title">
+                    <a href="#">KIDS</a>
+                </div>
+            </div>
+            <div class="category-content">
+                <div class="category-content__img">
+                    <img src="images/man-img.svg" alt="">
+                </div>
+                <div class="category-content__title">
+                    <a href="#">WOMAN</a>
+                </div>
+            </div>
+
+        </section>
+        <!-- -----start-designing---- -->
+        <section class="start-designing">
+            <img src="images/start-designing-bg-img.svg" alt="" class="start-designing__bg">
+            <div class="start-designing__content container">
+                <div class="content-img">
+                    <img src="images/standing-man.svg" alt="">
+                </div>
+                <div class="content-text">
+                    <h1>CREATE</h1>
+                    <h3>Latest Collection</h3>
+                    <button><span><img src="images/paintbrush-icon.svg" alt=""></span><span>START
+                            DESIGNING</span></button>
+                </div>
+            </div>
+        </section>
+        <!-- ------shop---- -->
+        <section class="shop">
+            <img src="images/shop-bg-img.svg" alt="" class="shop-bg__img">
+            <div class="shop-content ">
+                <div class="shop-content__text">
+                    <h1>SHOP</h1>
+                    <h3>Latest Collections</h3>
+                    <h5>The Caption Edit</h5>
+                </div>
+                <div class="shop-content__img">
+                    <img src="images/standing-woman.svg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ===banner section== -->
+         <section class="banner">
+            <div class="banner-left">
+                <h1 class="banner-left__create">CREATE</h1>
+                <div class="banner-left__img">
+                    <i class="fa fa-angle-right top-right" style="color:red"></i>
+                    <i class="fa fa-angle-right bottom-left" style="color:red"></i>
+                        <img src="images/standing-man.svg" alt="">
+                    <div class="banner-left__img-text">
+                        <img src="images/paintbrush-icon.svg">
+                        <h2>CREATE</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-middle img-container">
+                <figure>
+                    <img src="images/baby-boy.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <i class="fa fa-gittip icon" style="font-size:24px"></i>
+                    <h2 class="overlay-text">The Caption Edit</h2>
+                    <p>Discover the collection</p>
+                </div>
+            </div>
+            <div class="banner-middle img-container">
+                <figure>
+                    <img src="images/baby-boy.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <i class="fa fa-gittip icon" style="font-size:24px"></i>
+                    <h2 class="overlay-text">The Caption Edit</h2>
+                    <p>Discover the collection</p>
+                </div>
+            </div>
+            <div class="banner-right img-container">
+                <figure>
+                    <img src="images/standing-woman.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <i class="fa fa-gittip icon" style="font-size:24px"></i>
+                    <h2 class="overlay-text">The Caption Edit</h2>
+                    <p>Discover the collection</p>
+                </div>
+            </div>
+        </section>
+        <!-- ===gallary section=== -->
+        <section class="gallary container">
+            <div class="img-container">
+                <figure>
+                    <img src="images/gallary-img1.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <h2 class="overlay-text">Shop Kids</h2>
+                </div>
+            </div>
+
+            <div class=" img-container ">
+                <figure>
+                    <img src="images/gallary-img2.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <h2 class="overlay-text">Shop Head Gear</h2>
+                </div>
+            </div>
+            <div class="img-container">
+                <figure>
+                    <img src="images/gallary-img3.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <h2 class="overlay-text">Shop posters</h2>
+                </div>
+            </div>
+            <div class=" img-container">
+                <figure>
+                    <img src="images/gallary-img4.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <h2 class="overlay-text">Shop cofee Mugs</h2>
+                </div>
+            </div>
+            <div class=" img-container">
+                <figure>
+                    <img src="images/gallary-img5.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <h2 class="overlay-text">Shop Dresess</h2>
+                </div>
+            </div>
+            <div class=" img-container">
+                <figure>
+                    <img src="images/gallary-img6.svg" alt="" class="image">
+                </figure>
+                <div class="overlay">
+                    <h2 class="overlay-text">shop vitnage</h2>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ==slider=== -->
+        <section class="slider-section">
+            <div class="red-bg"></div>
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide-itm ">
+                        <div class="slide-itm__text">
+                            <h2>STRIPES</h2>
+                            <h2>OF EVERY STRIPES</h2>
+                            <a href="#" class="slider-btn">Shop Now</a>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/slide2-img.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide-itm">
+                        <div class="slide-itm__text">
+                            <h2>STRIPES</h2>
+                            <h2>OF EVERY STRIPES</h2>
+                            <a href="#" class="slider-btn">Shop Now</a>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/slide1-img.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide-itm">
+                        <div class="slide-itm__text">
+                            <h2>STRIPES</h2>
+                            <h2>OF EVERY STRIPES</h2>
+                            <a href="#" class="slider-btn">Shop Now</a>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/slide2-img.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="slide-itm">
+                        <div class="slide-itm__text">
+                            <h2>STRIPES</h2>
+                            <h2>OF EVERY STRIPES</h2>
+                            <a href="#" class="slider-btn">Shop Now</a>
+                        </div>
+                        <div class="image-container">
+                            <img src="images/slide2-img.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- ---new release---- -->
+        <section class="new-release container">
+            <div class="new-release__heading">
+                <h2>NEW RELEASE</h2>
+                <a href="#">VIEW ALL</a>
+            </div>
+            <div class="new-release-slider">
+                <div class="slide-itm">
+                    <div class="products-img ">
+                        <div class="img-container">
+                            <figure>
+                                <img src="images/tshirt-img.svg" alt="" class="image">
+                            </figure>
+                        </div>
+                        <div class="products-img__colors">
+                            <div class="color black-color"></div>
+                            <div class="color green-color"></div>
+                            <div class="color red-color"></div>
+                            <div>+ 15 colors</div>
+                        </div>
+                        <span class="products-title">Gay Agenda Funny Tshirt</span>
+                        <span class="products-price">$ 25.99</span>
+                    </div>
+                </div>
+                <div class="slide-itm">
+                    <div class="products-img ">
+                        <div class="img-container">
+                            <figure>
+                                <img src="images/tshirt-img.svg" alt="" class="image">
+                            </figure>
+                        </div>
+                        <div class="products-img__colors">
+                            <div class="color black-color"></div>
+                            <div class="color green-color"></div>
+                            <div class="color red-color"></div>
+                            <div>+ 15 colors</div>
+                        </div>
+                        <span class="products-title">Gay Agenda Funny Tshirt</span>
+                        <span class="products-price">$ 25.99</span>
+                    </div>
+                </div>
+                <div class="slide-itm">
+                    <div class="products-img ">
+                        <div class="img-container">
+                            <figure>
+                                <img src="images/tshirt-img.svg" alt="" class="image">
+                            </figure>
+                        </div>
+                        <div class="products-img__colors">
+                            <div class="color black-color"></div>
+                            <div class="color green-color"></div>
+                            <div class="color red-color"></div>
+                            <div>+ 15 colors</div>
+                        </div>
+                        <span class="products-title">Gay Agenda Funny Tshirt</span>
+                        <span class="products-price">$ 25.99</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==product section=== -->
+
+        <section class="products container">
+            <div class="products-heading">
+                <span class="line" style="width: 100px;">
+                    <hr color="red">
+                </span><span class="products-heading__title">FEATURED PRODUCT</span>
+            </div>
+            <div class="products-content">
+                <div class="products-img ">
+                    <div class="img-container">
+                        <figure>
+                            <img src="images/tshirt-img.svg" alt="" class="image">
+                        </figure>
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <img src="images/bag-icon.svg" alt="">
+                                <h4 class="overlay-text__title">ADD TO BAG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img__colors">
+                        <div class="color black-color"></div>
+                        <div class="color green-color"></div>
+                        <div class="color red-color"></div>
+                        <div>+ 15 colors</div>
+                    </div>
+                    <span class="products-title">Gay Agenda Funny Tshirt</span>
+                    <span class="products-price">$ 25.99</span>
+                </div>
+                <div class="products-img">
+                    <div class="img-container">
+                        <figure>
+                            <img src="images/tshirt-img.svg" alt="">
+                        </figure>
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <img src="images/bag-icon.svg" alt="">
+                                <h4 class="overlay-text__title">ADD TO BAG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img__colors">
+                        <div class="color black-color"></div>
+                        <div class="color green-color"></div>
+                        <div class="color red-color"></div>
+                        <div>+ 15 colors</div>
+                    </div>
+                    <span class="products-title">Gay Agenda Funny Tshirt</span>
+                    <span class="products-price">$ 25.99</span>
+                </div>
+                <div class="products-img">
+                    <div class="img-container">
+                        <figure>
+                            <img src="images/tshirt-img.svg" alt="">
+                        </figure>
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <img src="images/bag-icon.svg" alt="">
+                                <h4 class="overlay-text__title">ADD TO BAG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img__colors">
+                        <div class="color black-color"></div>
+                        <div class="color green-color"></div>
+                        <div class="color red-color"></div>
+                        <div>+ 15 colors</div>
+                    </div>
+                    <span class="products-title">Gay Agenda Funny Tshirt</span>
+                    <span class="products-price">$ 25.99</span>
+                </div>
+                <div class="products-img">
+                    <div class="img-container">
+                        <figure>
+                            <img src="images/tshirt-img.svg" alt="">
+                        </figure>
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <img src="images/bag-icon.svg" alt="">
+                                <h4 class="overlay-text__title">ADD TO BAG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img__colors">
+                        <div class="color black-color"></div>
+                        <div class="color green-color"></div>
+                        <div class="color red-color"></div>
+                        <div>+ 15 colors</div>
+                    </div>
+                    <span class="products-title">Gay Agenda Funny Tshirt</span>
+                    <span class="products-price">$ 25.99</span>
+                </div>
+                <div class="products-img">
+                    <div class="img-container">
+                        <figure>
+                            <img src="images/tshirt-img.svg" alt="">
+                        </figure>
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <img src="images/bag-icon.svg" alt="">
+                                <h4 class="overlay-text__title">ADD TO BAG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img__colors">
+                        <div class="color black-color"></div>
+                        <div class="color green-color"></div>
+                        <div class="color red-color"></div>
+                        <div>+ 15 colors</div>
+                    </div>
+                    <span class="products-title">Gay Agenda Funny Tshirt</span>
+                    <span class="products-price">$ 25.99</span>
+                </div>
+                <div class="products-img">
+                    <div class="img-container">
+                        <figure>
+                            <img src="images/tshirt-img.svg" alt="">
+                        </figure>
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <img src="images/bag-icon.svg" alt="">
+                                <h4 class="overlay-text__title">ADD TO BAG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img__colors">
+                        <div class="color black-color"></div>
+                        <div class="color green-color"></div>
+                        <div class="color red-color"></div>
+                        <div>+ 15 colors</div>
+                    </div>
+                    <span class="products-title">Gay Agenda Funny Tshirt</span>
+                    <span class="products-price">$ 25.99</span>
+                </div>
+                <div class="products-img">
+                    <div class="img-container">
+                        <figure>
+                            <img src="images/tshirt-img.svg" alt="">
+                        </figure>
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <img src="images/bag-icon.svg" alt="">
+                                <h4 class="overlay-text__title">ADD TO BAG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img__colors">
+                        <div class="color black-color"></div>
+                        <div class="color green-color"></div>
+                        <div class="color red-color"></div>
+                        <div>+ 15 colors</div>
+                    </div>
+                    <span class="products-title">Gay Agenda Funny Tshirt</span>
+                    <span class="products-price">$ 25.99</span>
+                </div>
+                <div class="products-img">
+                    <div class="img-container">
+                        <figure>
+                            <img src="images/tshirt-img.svg" alt="">
+                        </figure>
+                        <div class="overlay">
+                            <div class="overlay-text">
+                                <img src="images/bag-icon.svg" alt="">
+                                <h4 class="overlay-text__title">ADD TO BAG</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="products-img__colors">
+                        <div class="color black-color"></div>
+                        <div class="color green-color"></div>
+                        <div class="color red-color"></div>
+                        <div>+ 15 colors</div>
+                    </div>
+                    <span class="products-title">Gay Agenda Funny Tshirt</span>
+                    <span class="products-price">$ 25.99</span>
+                </div>
+            </div>
+        </section> 
+
+        <!-- ====design-now=== -->
+        <section class="design-now container">
+            <div>
+            <div class="design-now__img">
+                <div class="img-left">
+                    <div class="img-left__upper">
+                        <img src="images/design-img1.svg" alt="">
+                    </div>
+                    <div class="img-left__lower">
+                        <img src="images/design-img3.svg" alt="">
+                    </div>
+                </div>
+                <div class="img-right">
+                    <div class="img-right__upper">
+                        <img src="images/design-img2.svg" alt="">
+                    </div>
+                    <div class="img-right__lower">
+                        <img src="images/design-img4.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="your-idea">
+                <img src="images/idea-img.svg" alt="">
+                <span class="your-idea__title">Your T-shirt Your Idea!</span>
+            </div>
+            <p class="design-now__text">Lorem ipsum dolor sit amgghjhjgjdgj\gshdfahsdhahh et cfhfhgfhfjhhgfg
+                fhhhonsectetur adipisicing elit. Consequuntur, expedita.</p>
+            <a href="#" class="design-now__btn">DESIGN NOW</a>
+            <!-- <div class="your-idea">
+                <img src="images/idea-img.svg" alt="">
+                <span class="your-idea__title">Your T-shirt Your Idea!</span>
+            </div> -->
+        </div>
+        </section> 
+        <!-- ======about us section===  -->
+         <section class="aboutus">
+            <div class="aboutus-blocks">
+                <div class="aboutus-content">
+                    <svg id="aboutus-img" xmlns="http://www.w3.org/2000/svg" width="74.419" height="65.494" viewBox="0 0 74.419 65.494">
+                        <g id="Group_474" data-name="Group 474" transform="translate(-3664.492 1797.079)">
+                          <g id="noun_Power_1790575" transform="translate(3664.492 -1773.516)">
+                            <g id="Group_25" data-name="Group 25" transform="translate(0 0)">
+                              <path id="Path_18" class="imgcolor" data-name="Path 18" d="M28.623,55.625a50.394,50.394,0,0,0-5.1-6.514,58.565,58.565,0,0,1-4.814-5.876,2.644,2.644,0,0,0-3.682-.637c-1.416.85-2.478,2.761-.92,5.735.779,1.558,2.69,3.611,4.673,5.806.142.142.212.283.354.425a1.113,1.113,0,0,1-.212,1.7,1.293,1.293,0,0,1-1.487-.212l-.354-.354a50.135,50.135,0,0,1-3.965-4.673,11.159,11.159,0,0,1-1.062-1.7,6.841,6.841,0,0,1-.566-5.876,49.546,49.546,0,0,1-2.407-5.876A3.367,3.367,0,0,0,2.5,38.916c.212,4.39,1.77,18.9,6.018,23.86a50.438,50.438,0,0,0,9.062,7.859,2.214,2.214,0,0,1,.92,1.77v2.974a1.6,1.6,0,0,0,1.628,1.628H30.463a1.6,1.6,0,0,0,1.628-1.628c-.071-1.77-.142-4.744-.283-7.292A33.158,33.158,0,0,0,28.623,55.625Z" transform="translate(-2.492 -35.076)" />
+                              <path id="Path_19" class="imgcolor" data-name="Path 19" d="M78.739,37.647a54.947,54.947,0,0,1-2.407,5.876,7.1,7.1,0,0,1-.566,5.876A16.19,16.19,0,0,1,74.7,51.1c-1.062,1.416-2.407,2.974-3.965,4.673-.071.142-.212.212-.283.354a1.1,1.1,0,0,1-1.487.212,1.113,1.113,0,0,1-.212-1.7c.142-.142.212-.283.354-.425,1.982-2.195,3.894-4.248,4.673-5.806,1.487-2.9.5-4.885-.92-5.735a2.624,2.624,0,0,0-3.682.637,50.2,50.2,0,0,1-4.814,5.876,50.4,50.4,0,0,0-5.1,6.514c-1.274,2.124-2.832,7.08-3.186,12.319-.142,2.549-.212,5.522-.283,7.292a1.6,1.6,0,0,0,1.628,1.628H67.765a1.6,1.6,0,0,0,1.628-1.628V72.34a2.214,2.214,0,0,1,.92-1.77,50.441,50.441,0,0,0,9.062-7.859c4.248-4.956,5.735-19.47,6.018-23.789C85.536,34.6,80.013,33.612,78.739,37.647Z" transform="translate(-10.978 -35.081)" />
+                            </g>
+                          </g>
+                          <g id="noun_cotton_18663" transform="translate(3683.608 -1797.079)">
+                            <path id="Path_20" class="imgcolor" data-name="Path 20" d="M37.955,13.584a5.764,5.764,0,0,0-7.32-8.554,7.639,7.639,0,0,0-14.358,0A5.74,5.74,0,0,0,13.6,4.347a5.77,5.77,0,0,0-4.4,9.535,8.281,8.281,0,0,0,4.85,14.857,11.434,11.434,0,0,1-3.125-6.624l-.1-1.084,1.051-.286a13.758,13.758,0,0,1,3.291-.392,9.954,9.954,0,0,1,4.881,1.139,11.256,11.256,0,0,1,2.842-4.409l.869-.791.869.791a11.248,11.248,0,0,1,2.841,4.409,9.941,9.941,0,0,1,4.877-1.139,13.714,13.714,0,0,1,3.288.393l1.135.309-.2,1.159a12.729,12.729,0,0,1-3.454,6.525c.065,0,.129.009.2.009a8.295,8.295,0,0,0,4.647-15.165Z" transform="translate(-5.954)"/>
+                            <path id="Path_21" class="imgcolor" data-name="Path 21" d="M36.965,49.361a6.9,6.9,0,0,0-1.242,1.029c0-.061.019-.117.019-.178,0-3.112-2.774-5.637-2.774-5.637s-2.774,2.525-2.774,5.637c0,.061.017.117.019.178a6.876,6.876,0,0,0-1.243-1.029c-3.173-2.021-7.547-.833-7.547-.833s.48,4.466,3.654,6.489A9.251,9.251,0,0,0,31.37,56.04v9.954c0,.534.68.967,1.214.967s1.214-.433,1.214-.967v-9.97c1.214.233,4.414.464,6.726-1.007,3.175-2.023,3.968-6.489,3.968-6.489S40.139,47.34,36.965,49.361Z" transform="translate(-15.164 -26.537)"/>
+                          </g>
+                        </g>
+                      </svg>
+                    <h2 class="aboutus-text">High Quality Standards</h2>
+                    <p class="aboutus-text aboutus-para">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quas dolores quo quam consectetur quibusdam repellat quia dicta excepturi
+                        mollitia nobis!</p>
+                </div>
+                <div class="aboutus-content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="69" height="67.606" viewBox="0 0 69 67.606">
+                        <g id="Group_826" data-name="Group 826" transform="translate(-3999.535 1854)">
+                          <path id="Subtraction_1" class="imgcolor" data-name="Subtraction 1" d="M22.126,49.991c-4.642,0-7.01-.258-7.038-.768L13.4,20.623,8.927,24a2.075,2.075,0,0,1-1.31.456,2.241,2.241,0,0,1-1.8-.911L.367,15.5a2.245,2.245,0,0,1,.259-2.789l9.663-9.4A11.67,11.67,0,0,1,18.461,0h4.474a.563.563,0,0,1,.519.389c.726,2.706,3.836,4.669,7.393,4.669a8.832,8.832,0,0,0,4.734-1.338A5.884,5.884,0,0,0,38.176.389.49.49,0,0,1,38.694,0H43.1a11.67,11.67,0,0,1,8.171,3.308l9.663,9.4A2.167,2.167,0,0,1,61.2,15.5c-.014.02-.652.4-1.9,1.132l-.178-.368a2.587,2.587,0,0,0-2.229-1.586c-.05,0-.1-.005-.152-.005a2.835,2.835,0,0,0-1.437.414l-.881.524a2.83,2.83,0,0,1-1.437.414c-.051,0-.1,0-.152-.005a2.788,2.788,0,0,1-1.517-.626l-.8-.706a2.792,2.792,0,0,0-1.516-.626c-.063,0-.126-.007-.189-.007a2.651,2.651,0,0,0-2.235,1.2l-.581.87a2.651,2.651,0,0,1-2.233,1.2c-.064,0-.128,0-.192-.007a1.272,1.272,0,0,1-.225-.048,1.29,1.29,0,0,0-.224-.048l-1.021-.266a1.09,1.09,0,0,0-.448-.1c-.059,0-.118-.006-.177-.006A2.694,2.694,0,0,0,38.829,19.2l-.137,1.03a2.708,2.708,0,0,1-2.112,2.323l-1.054.186a2.745,2.745,0,0,0-1.818,1.341,2.6,2.6,0,0,0-.181,2.16l.32,1a2.527,2.527,0,0,1,.016,1.626,2.891,2.891,0,0,1-.94,1.364l-.826.657a2.6,2.6,0,0,0-1.057,1.877,2.736,2.736,0,0,0,.777,2.134l.662.761a2.617,2.617,0,0,1,.5,3.091l-.456.943a2.768,2.768,0,0,0,.218,2.764c-2.111,4.925-3.477,7.423-4.059,7.423-.162,0-.543.01-1.07.024C26.355,49.937,24.254,49.991,22.126,49.991Z" transform="translate(3999.535 -1854)" fill="red"/>
+                          <g id="noun_approved_426786" transform="translate(4034.557 -1836.558) rotate(4)">
+                            <path id="Path_23" class="imgcolor" class="imgcolor" data-name="Path 23" d="M13.713,34.6a5.563,5.563,0,0,0,1.605-.254L9.806,47.522a.533.533,0,0,1-.963.051L6.221,43.2a.368.368,0,0,0-.428-.153L.87,44.52a.492.492,0,0,1-.642-.661L5.472,31.393a5.823,5.823,0,0,0,2.3.509,6.19,6.19,0,0,0,.963-.1h.107l.054.1A5.523,5.523,0,0,0,13.713,34.6Zm12.522-2.7a6.19,6.19,0,0,1-.963-.1h-.107l-.054.1A5.544,5.544,0,0,1,20.3,34.6a5.869,5.869,0,0,1-1.605-.254l5.565,13.229a.533.533,0,0,0,.963.051l2.622-4.376a.368.368,0,0,1,.428-.153l4.923,1.476a.492.492,0,0,0,.642-.661L28.59,31.342A4.857,4.857,0,0,1,26.235,31.9ZM.763,17.248a2.012,2.012,0,0,1,0-3.155l.642-.56a2.062,2.062,0,0,0,.589-2.391l-.321-.763A2.081,2.081,0,0,1,3.117,7.53l.856-.2A2.149,2.149,0,0,0,5.579,5.393l.054-.814A2.174,2.174,0,0,1,7.826,2.595a.954.954,0,0,1,.375.051l.856.153c.107,0,.268.051.375.051a2.2,2.2,0,0,0,1.926-1.068l.428-.712A2.223,2.223,0,0,1,13.713,0,2.387,2.387,0,0,1,15,.407l.7.509a2.387,2.387,0,0,0,1.284.407A2.387,2.387,0,0,0,18.262.916l.7-.458A2.387,2.387,0,0,1,20.242.051,2.147,2.147,0,0,1,22.168,1.17l.428.712A2.147,2.147,0,0,0,24.523,3a.954.954,0,0,0,.375-.051l.856-.153c.107,0,.268-.051.375-.051a2.138,2.138,0,0,1,2.194,1.984l.054.814a2.149,2.149,0,0,0,1.605,1.933l.856.2a2.115,2.115,0,0,1,1.445,2.849l-.214.661a1.987,1.987,0,0,0,.589,2.391l.642.56a2.012,2.012,0,0,1,0,3.155l-.642.56a2.062,2.062,0,0,0-.589,2.391l.321.763a2.081,2.081,0,0,1-1.445,2.849l-.856.2A2.149,2.149,0,0,0,28.483,26l-.054.814A2.174,2.174,0,0,1,26.235,28.8a.954.954,0,0,1-.375-.051L25,28.595c-.107,0-.268-.051-.375-.051A2.2,2.2,0,0,0,22.7,29.612l-.428.712a2.223,2.223,0,0,1-1.926,1.068,2.387,2.387,0,0,1-1.284-.407l-.7-.509a2.23,2.23,0,0,0-2.569,0l-.7.458a2.387,2.387,0,0,1-1.284.407,2.147,2.147,0,0,1-1.926-1.119l-.428-.712a2.147,2.147,0,0,0-1.926-1.119.954.954,0,0,0-.375.051l-.856.153c-.107,0-.268.051-.375.051a2.138,2.138,0,0,1-2.194-1.984l-.214-.712A2.149,2.149,0,0,0,3.92,24.015l-.856-.2a2.115,2.115,0,0,1-1.445-2.849L1.94,20.2a1.987,1.987,0,0,0-.589-2.391Zm8.027,4.02a1.4,1.4,0,0,0,1.445,1.374h2.141a2.065,2.065,0,0,0,.8-.2A1.365,1.365,0,0,0,13.5,21.37V18.012s0,4.172,2.462,4.427c.856.051,1.98.1,3.05.1a10.843,10.843,0,0,0,2.89-.1C24.737,21.878,24.041,20,24.041,20a1.734,1.734,0,0,0,.642-2.442,1.632,1.632,0,0,0,0-2.493,1.406,1.406,0,0,0-.214-1.883c-1.177-1.018-4.388-.356-4.388-.356h0c-.214.051-.482.1-.7.153,0,0-1.124.509,0-2.7s-.749-3.714-1.5-3.714c-.8,0-.535,1.577-.535,1.577s-1.659,4.376-3.264,5.5a3.091,3.091,0,0,0-.749,1.221,1.5,1.5,0,0,0-.91-.305H10.288a1.4,1.4,0,0,0-1.445,1.374v5.342Z" transform="translate(0 0)" fill="red"/>
+                          </g>
+                        </g>
+                      </svg>
+                    <h2 class="aboutus-text">Official Licensed apparel!</h2>
+                    <p class="aboutus-text aboutus-para">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quas dolores quo quam consectetur quibusdam repellat quia dicta excepturi
+                        mollitia nobis!</p>
+                </div>
+                <div class="aboutus-content">
+                    <svg id="noun_cool_852038" xmlns="http://www.w3.org/2000/svg" width="65.782" height="65.781" viewBox="0 0 65.782 65.781">
+                        <path id="Path_27" class="imgcolor" data-name="Path 27" d="M96.894,64.01a32.891,32.891,0,1,0,32.888,32.9A32.895,32.895,0,0,0,96.894,64.01Zm16.193,41.627c-.176.338-4.446,8.279-17,8.279a.978.978,0,0,1,0-1.956c11.315,0,15.112-6.934,15.271-7.227a.977.977,0,0,1,1.733.9Zm5.5-16.728-.176.141-.226.019s-.737.1-.752.435a8.484,8.484,0,0,1-2.062,5.734,7.643,7.643,0,0,1-5.794,2.18h-.047a12.85,12.85,0,0,1-10.845-9.559c-.026-.129-.35-2.305-1.774-2.305-1.477,0-1.785,2.17-1.788,2.194a12.909,12.909,0,0,1-10.869,9.671h-.009a7.667,7.667,0,0,1-5.832-2.179,8.515,8.515,0,0,1-2.059-5.809c-.015-.262-.749-.36-.755-.36l-.223-.019-.179-.142a2.091,2.091,0,0,1-.811-1.5,4.419,4.419,0,0,1,1.2-2.856l.12-.134.17-.065c.332-.123,8.232-3.045,20.519-3.045a77.951,77.951,0,0,1,21.447,3.028l.206.059.144.159a4.443,4.443,0,0,1,1.2,2.854A2.109,2.109,0,0,1,118.59,88.909Z" transform="translate(-64 -64.01)" fill="red"/>
+                      </svg>
+                      
+                    <h2 class="aboutus-text">High Quality Standards</h2>
+                    <p class="aboutus-text aboutus-para">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quas dolores quo quam consectetur quibusdam repellat quia dicta excepturi
+                        mollitia nobis!</p>
+                </div>
+                <div class="aboutus-content">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="51.559" height="65.739" viewBox="0 0 51.559 65.739">
+                        <g id="noun_customer_service_848409" data-name="noun_customer service_848409" transform="translate(-14.706 -5)">
+                          <g id="Group_26" data-name="Group 26" transform="translate(14.706 5)">
+                            <path id="Path_24 " class="imgcolor" data-name="Path 24" d="M44.445,43.277A3.753,3.753,0,0,1,48.2,39.529h2.739a3.734,3.734,0,0,1,2.391.863,18.057,18.057,0,0,0,2.66-.558,16.758,16.758,0,0,0,2.722-8.872,13.8,13.8,0,1,0-27.6,0c0,7.61,6.191,15.689,13.8,15.689a10.852,10.852,0,0,0,1.483-.107A3.741,3.741,0,0,1,44.445,43.277Z" transform="translate(-19.126 -8.278)" fill="red"/>
+                            <path id="Path_25 " class="imgcolor" data-name="Path 25" d="M50.848,57.73a15.855,15.855,0,0,1-9.635,3.254H39.759a15.854,15.854,0,0,1-9.636-3.254A18.372,18.372,0,0,0,14.706,75.861c0,5.02,11.541,9.092,25.78,9.092s25.779-4.072,25.779-9.092A18.371,18.371,0,0,0,50.848,57.73Z" transform="translate(-14.706 -19.214)" fill="red"/>
+                            <path id="Path_26 " class="imgcolor" data-name="Path 26" d="M22.252,38.308h.172a3.441,3.441,0,0,0,3.442-3.445V27.984a3.433,3.433,0,0,0-1.914-3.077,17.665,17.665,0,0,1,35.28,0,3.436,3.436,0,0,0-1.912,3.077v6.878a3.439,3.439,0,0,0,.244,1.279,16.84,16.84,0,0,1-8.213,2.742,2.07,2.07,0,0,0-1.73-.944H44.882a2.063,2.063,0,1,0,0,4.125h2.739a2.053,2.053,0,0,0,1.821-1.114,18.52,18.52,0,0,0,9.467-3.19,3.4,3.4,0,0,0,1.852.547h.171a3.44,3.44,0,0,0,3.441-3.445V27.984a3.43,3.43,0,0,0-1.961-3.1,20.84,20.84,0,0,0-41.636,0,3.427,3.427,0,0,0-1.964,3.1v6.878A3.442,3.442,0,0,0,22.252,38.308Z" transform="translate(-15.813 -5)" fill="red"/>
+                          </g>
+                        </g>
+                      </svg>
+                      
+                    <h2 class="aboutus-text">High Quality Standards</h2>
+                    <p class="aboutus-text aboutus-para">Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Quas dolores quo quam consectetur quibusdam repellat quia dicta excepturi
+                        mollitia nobis!</p>
+                </div>
+            </div>
+        </section> 
+        <section class="aboutus-moblie">
+            <div>
+            <div class="aboutus-mobile__content">
+                <div class="content-img">
+                    <img src="images/quality-img.svg" alt="">
+                </div>
+                <div class="content-text">
+                     <h3>High Quality Standards</h3>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="aboutus-mobile__content">
+                <div class="content-img">
+                    <img src="images/licensed-img.svg" alt="">
+                </div>
+                <div class="content-text">
+                     <h3>High Quality Standards</h3>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="aboutus-mobile__content">
+                <div class="content-img">
+                    <img src="images/emoji.svg" alt="">
+                </div>
+                <div class="content-text">
+                     <h3>High Quality Standards</h3>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+            <div class="aboutus-mobile__content">
+                <div class="content-img">
+                    <img src="images/customer.svg" alt="">
+                </div>
+                <div class="content-text">
+                     <h3>High Quality Standards</h3>
+                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+            </div>
+        </div>
+
+        </section>
+
+        <!-- ====join-us section=== -->
+        <section class="joinus">
+            <img src="images/joinus-bg-img.svg" alt="" class="joinus-background">
+            <div class="joinus-form container">
+                <form>
+                    <label for="email">All of deals and update in your inbox</label>
+                    <br>
+                    <input type="email" placeholder="Enter Email" id="email">
+                    <br>
+                    <a href="#" class="btn">Join us</a>
+                </form>
+            </div>
+
+        </section>
+
+        <!-- ====shop now -->
+        <section class="shop-now">
+            <div class="shop-now__left">
+                <h1 class="left-title">T-SHIRT</h1>
+                <p class="left-para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus
+                    iure harum non repudiandae, quaerat a reiciendis nemo cum vero
+                    optio aut corporis, iste dolorem unde ad, magnam fuga praesentium soluta.</p>
+                <img src="images/dottedcircle-bg.svg" alt="" class="dot-img">
+                <img src="images/shopnow-img.svg" alt="">
+            </div>
+            <div class="shop-now__right">
+                <div class="right-content">
+                    <span class="right-content__title">T-SHIRT</span>
+                    <span class="right-content__subtitle">OF THE WEEK</span>
+                    <a href="#" class="btn">SHOP NOW</a>
+                </div>
+            </div>
+        </section>
+        <!-- ========read more===== -->
+        <section class="readmore container">
+            <div class="readmore-left">
+                <img src="images/readmore-girl.svg" alt="">
+            </div>
+            <div class="readmore-right">
+                <img src="images/read-more-bg.png" alt="">
+                <div class="readmore-right__text">
+                    <h3 class="readmore-title">Unique and funny tshirt for men , women ,kids and babies </h3>
+                    <p class="readmore-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+                        cupiditate,
+                        ips
+                        am quo vel temporibus commodi nisi! Aut aliquam neque
+                        a corporis laboriosam, nihil quod qui explicabo, ab nulla, eos modi.
+                    </p>
+                    <a href="#" class="readmore-btn">Read more</a>
+                </div>
+            </div>
+        </section>
+        <!-- ===quick buy section== -->
+        <h2 class="quickbuy-header container">QUICK BUY</h2>
+        <section class="quick-buy">
+            <div class=" items container">
+                <div class="item">
+                    <a href="#">
+                        <img src="images/tshirt-icon.svg" alt="">
+                        <h6 class="item-title">T-SHIRTS</h6>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="images/hoodies-icon.svg" alt="">
+                        <h6 class="item-title">HOODIES</h6>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="images/tanktops-icon.svg" alt="" style="padding-left: 15px;">
+                        <h6 class="item-title">TANK TOPS</h6>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="images/hoodies-icon.svg" alt="">
+                        <h6 class="item-title">DRESSES</h6>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="images/hoodies-icon.svg" alt="">
+                        <h6 class="item-title">KIDS</h6>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#">
+                        <img src="images/hoodies-icon.svg" alt="">
+                        <h6 class="item-title">BAGS</h6>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-links">
+            <ul class="footer-links__items">
+                <li>QUICK SHOP</li>
+                <li><a href="#">clothing</a></li>
+                <li><a href="#">coffee mugs</a></li>
+                <li><a href="#">head gear</a></li>
+                <li><a href="#">home & bath</a></li>
+                <li><a href="#">pins & magnet</a></li>
+                <li><a href="#">site maps+</a></li>
+            </ul>
+            <ul class="footer-links__items">
+                <li>CREATE</li>
+                <li><a href="#">clothing</a></li>
+                <li><a href="#">coffee mugs</a></li>
+                <li><a href="#">hats</a></li>
+                <li><a href="#">bags</a></li>
+                <li><a href="#">view all+</a></li>
+            </ul>
+            <ul class="footer-links__items">
+                <li>COMPANY</li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">blogs</a></li>
+                <li><a href="#">newsletters</a></li>
+            </ul>
+
+            <ul class="footer-links__items">
+                <li>HELP</li>
+                <li><a href="#">appreal sizing</a></li>
+                <li><a href="#">faqs</a></li>
+                <li><a href="#">shipping & returns</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+            <ul class="footer-links__items">
+                <li>TERMS</li>
+                <li><a href="#">pravicy policy</a></li>
+                <li><a href="#">content uses policy</a></li>
+                <li><a href="#">intellectual property policy</a></li>
+            </ul>
+            <div class="footer-icon">
+                <div class="footer-icon__networking">
+                    <i class="fa fa-facebook icon"></i>
+                    <i class="fa fa-instagram icon"></i>
+                    <i class="fa fa-twitter icon"></i>
+                    <i class="fa fa-pinterest-p icon"></i>
+                </div>
+                <img src="images/google-logo.svg" alt="">
+            </div>
+        </div>
+        <hr color="grey">
+        <div class="footer-copyright container">
+            <div class="cards">
+                <img src="images/mastercard-img.svg" alt="">
+                <img src="images/visacard-img.svg" alt="">
+                <img src="images/americancard-img.svg" alt="">
+                <img src="images/discovercard-img.svg" alt="">
+                <img src="images/paypal.svg" alt="">
+            </div>
+            <h4>copyright@2019 -tee shirt palace </h4>
+
+        </div>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider').slick({
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                // dots:true,
+                centerMode: true,
+                // centerPadding:'60px',
+                variableWidth: true,
+                prevArrow: '<span class="left-controller"><i class="fa fa-angle-double-left" style="font-size:36px;color:white;"></i></span>',
+                nextArrow: '<span class="right-controller"><i class="fa fa-angle-double-right" style="font-size:36px;color:white;"></i></span>',
+
+
+            });
+            $('.new-release-slider').slick({
+                speed: 500,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                // dots:true,
+                // centerMode: true,
+                // centerPadding:'60px',
+                variableWidth: true,
+                arrows: true,
+            });
+        });
+    </script>
+    <script src="js/myscript.js"></script>
+</body>
+
+</html>

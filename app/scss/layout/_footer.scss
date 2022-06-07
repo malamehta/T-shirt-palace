@@ -1,0 +1,85 @@
+.footer{
+    position: relative;
+    margin-top: 50px;
+    border-top: 10px solid $dark-red-color;
+    background-color:$black-color;
+    &-links{
+        display: flex;
+        margin-top: 50px;
+        margin-bottom: 60px;
+        padding-left: 50px;
+        @media(max-width:$mobile-max){
+            margin-left: 15px;
+            padding-left: 5px;
+        }
+        &__items{
+            margin-right: 50px;
+             @media(max-width:$mobile-max){
+                margin-right: 15px;
+            }
+            li{
+                margin-bottom: 10px;
+                color: $white-color;
+                font-size: 13px;
+                a{
+                    color:$white-color;
+                    text-transform: uppercase;
+                    opacity: 0.5;
+                    font-size: 15px;
+                    cursor: pointer;
+                    @media(max-width:$mobile-max){
+                        font-size: 10px;
+                    }
+                }
+                a:hover{
+                    opacity: 1;
+                }
+            }
+            :first-child{
+                margin-bottom: 15px;
+            }
+        }
+    }
+    &-copyright{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        h4{
+            text-align: center;
+            color: $white-color;
+            margin-top: 50px;
+        }
+        .cards{
+            position: absolute;
+            left:35%;
+            img{
+                margin-right: 20px;
+            }
+            @media(max-width:$mobile-max){
+                left: 18%;
+            }
+        }
+    }
+    &-icon{
+        margin-left: 80px;
+        @media(max-width:$mobile-max){
+            margin-left: 15px;
+        }
+        &__networking{
+            margin-bottom: 10px;
+            .icon{
+                margin-right: 20px;
+                font-size: 24px;
+                color: $white-color;
+                opacity: 0.4;
+                cursor: pointer;
+                @media(max-width:$mobile-max){
+                    font-size: 18px;
+                    margin-right: 8px;
+                }
+            }
+            .icon:hover{
+                opacity: 1;
+            }
+        }
+    }
+}

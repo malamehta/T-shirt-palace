@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: $primary-fonts;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 52px;
+}
+
+// =====hover animation===
+.img-container{
+    position: relative;
+    width: 377px;
+}
+.image{
+    display: block;
+}
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    // background-color: $dark-red-color;
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: .4s ease;
+    text-align: center;
+    color: $white-color;
+    &-text{
+        margin-top: 20px;
+        color: $white-color;
+    }
+    
+}
+.img-container:hover .overlay{
+    height: 75px;
+}
